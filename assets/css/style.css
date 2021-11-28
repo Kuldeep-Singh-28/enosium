@@ -2421,27 +2421,28 @@ nav .main-menu2 li a::before {
 .sc_tab_cont .sp_cont h4 a {
   color: #221b68;
 }
-.ticket-area {
+.prize-area {
   position: relative;
   overflow: hidden;
 }
-.ticket-area .tic_shapes img {
+.prize-area .tic_shapes img {
   width: inherit;
   position: absolute;
 }
-.ticket-area .tic_shapes .vec_1 {
+.prize-area .tic_shapes .vec_1 {
   top: 30%;
   left: 2%;
 }
-.ticket-area .tic_shapes .vec_2 {
+.prize-area .tic_shapes .vec_2 {
   top: 10%;
   left: 7%;
 }
-.ticket-area .tic_shapes .vec_3 {
+.prize-area .tic_shapes .vec_3 {
   top: 10%;
   right: 10%;
 }
-.single-ticket {
+
+.single-prize {
   border-radius: 15px;
   text-align: center;
   padding: 50px 0;
@@ -2454,7 +2455,7 @@ nav .main-menu2 li a::before {
   -webkit-box-shadow: 0 3px 24px rgb(0 0 0/10%);
   box-shadow: 0 3px 24px rgb(0 0 0/10%);
 }
-.single-ticket::after {
+.single-prize::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -2486,79 +2487,79 @@ nav .main-menu2 li a::before {
   -webkit-box-shadow: 0 3px 24px rgb(0 0 0/10%);
   box-shadow: 0 3px 24px rgb(0 0 0/10%);
 }
-.single-ticket.active::after {
+.single-prize.active::after {
   opacity: 1;
   visibility: visible;
 }
-.single-ticket.active h4 {
+.single-prize.active h4 {
   color: #fff;
 }
-.single-ticket.active h2 {
+.single-prize.active h2 {
   color: #fff;
 }
-.single-ticket.active h2 span {
+.single-prize.active h2 span {
   color: #fff;
 }
-.single-ticket.active .sep hr {
+.single-prize.active .sep hr {
   border: 1px dashed #fff;
 }
-.single-ticket.active ul li {
+.single-prize.active ul li {
   color: #fff;
 }
-.single-ticket h2 {
+.single-prize h2 {
   margin: 30px 0;
 }
-.single-ticket .ticket-icon {
+.single-prize .prize-icon {
   font-size: 70px;
   color: #fd424d;
 }
-.single-ticket.active .ticket-icon {
+.single-prize.active .prize-icon {
   color: #fff;
   position: relative;
   z-index: 2;
 }
-.single-ticket.active .btn2 {
+.single-prize.active .btn2 {
   background: #fff;
   -webkit-transform: all 0.3s ease-in;
   -ms-transform: all 0.3s ease-in;
   transform: all 0.3s ease-in;
   border: 1px solid transparent;
 }
-.single-ticket.active .btn2::after {
+.single-prize.active .btn2::after {
   content: initial;
 }
-.single-ticket.active .btn2:hover {
+.single-prize.active .btn2:hover {
   color: #221b68;
 }
-.single-ticket h4 {
+.single-prize h4 {
   position: relative;
   z-index: 2;
 }
-.single-ticket h2 {
+.single-prize h2 {
   font-weight: 500;
   position: relative;
   z-index: 2;
 }
-.single-ticket h2 span {
+.single-prize h2 span {
   font-weight: 600;
   font-size: 16px;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-.single-ticket .sep {
+.single-prize .sep {
   position: relative;
   z-index: 2;
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-.single-ticket .sep hr {
+.single-prize .sep hr {
   width: 100%;
   margin: 40px 0;
   border: 1px dashed #fd424d;
 }
-.single-ticket ul {
+.single-prize ul {
   margin-bottom: 30px;
   position: relative;
   z-index: 2;
@@ -2566,7 +2567,7 @@ nav .main-menu2 li a::before {
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-.single-ticket ul li {
+.single-prize ul li {
   line-height: 2.1;
   font-weight: 500;
   text-transform: capitalize;
@@ -2574,45 +2575,45 @@ nav .main-menu2 li a::before {
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
-.single-ticket .btn2 {
+.single-prize .btn2 {
   position: relative;
   z-index: 2;
 }
-.single-ticket .btn2::after {
+.single-prize .btn2::after {
   content: initial;
 }
-.single-ticket:hover::after {
+.single-prize:hover::after {
   opacity: 1;
   visibility: visible;
 }
-.single-ticket:hover h4 {
+.single-prize:hover h4 {
   color: #fff;
 }
-.single-ticket:hover h2 {
+.single-prize:hover h2 {
   color: #fff;
 }
-.single-ticket:hover h2 span {
+.single-prize:hover h2 span {
   color: #fff;
 }
-.single-ticket:hover .sep hr {
+.single-prize:hover .sep hr {
   border: 1px dashed #fff;
 }
-.single-ticket:hover ul li {
+.single-prize:hover ul li {
   color: #fff;
 }
-.single-ticket:hover .ticket-icon {
+.single-prize:hover .prize-icon {
   color: #fff;
   position: relative;
   z-index: 2;
 }
-.single-ticket:hover .btn2 {
+.single-prize:hover .btn2 {
   background: #fff;
   -webkit-transform: all 0.3s ease-in;
   -ms-transform: all 0.3s ease-in;
   transform: all 0.3s ease-in;
   border: 1px solid transparent;
 }
-.single-ticket:hover .btn2:hover {
+.single-prize:hover .btn2:hover {
   color: #221b68;
 }
 .testi-area {
@@ -3860,11 +3861,12 @@ nav .main-menu2 li a::before {
   color: #fff;
   display: block;
 }
-.single-ticket2 {
+
+.single-prize2 {
   padding: 50px 0;
   border-radius: 10px;
 }
-.single-ticket2::after {
+.single-prize2::after {
   background: -webkit-linear-gradient(
     293deg,
     #e100ff 0%,
@@ -3881,61 +3883,61 @@ nav .main-menu2 li a::before {
     rgba(127, 0, 255, 0.99608) 100%
   );
 }
-.single-ticket2 h4,
-.single-ticket2 h2 {
+.single-prize2 h4,
+.single-prize2 h2 {
   font-family: ubuntu, sans-serif;
   color: #050931;
 }
 @media (min-width: 992px) {
-  .single-ticket2.one {
+  .single-prize2.one {
     margin-top: 40px;
     margin-right: -60px;
   }
-  .single-ticket2.two {
+  .single-prize2.two {
     padding: 60px 0;
     position: relative;
     z-index: 1;
   }
-  .single-ticket2.two ul li {
+  .single-prize2.two ul li {
     line-height: 2.7;
   }
-  .single-ticket2.three {
+  .single-prize2.three {
     margin-top: 40px;
     margin-left: -60px;
   }
 }
-.single-ticket2 .sep hr {
+.single-prize2 .sep hr {
   border: 1px dashed #8100fe;
 }
-.single-ticket2.active {
+.single-prize2.active {
   z-index: 22;
   -webkit-box-shadow: 0 25px 40px 0 rgba(127, 0, 255, 0.2);
   box-shadow: 0 25px 40px 0 rgba(127, 0, 255, 0.2);
 }
-.single-ticket2.active::after {
+.single-prize2.active::after {
   opacity: 1;
   visibility: visible;
 }
-.single-ticket2.active h4 {
+.single-prize2.active h4 {
   color: #fff;
 }
-.single-ticket2.active h2 {
+.single-prize2.active h2 {
   color: #fff;
 }
-.single-ticket2.active h2 span {
+.single-prize2.active h2 span {
   color: #fff;
 }
-.single-ticket2.active .sep hr {
+.single-prize2.active .sep hr {
   border: 1px dashed #fff;
 }
-.single-ticket2.active ul li {
+.single-prize2.active ul li {
   color: #fff;
 }
-.single-ticket2:hover {
+.single-prize2:hover {
   -webkit-box-shadow: 0 25px 40px 0 rgba(127, 0, 255, 0.2);
   box-shadow: 0 25px 40px 0 rgba(127, 0, 255, 0.2);
 }
-.single-ticket2:hover::after {
+.single-prize2:hover::after {
   background: -webkit-linear-gradient(
     293deg,
     #e100ff 0%,
@@ -3952,19 +3954,19 @@ nav .main-menu2 li a::before {
     rgba(127, 0, 255, 0.99608) 100%
   );
 }
-.single-ticket2:hover h4 {
+.single-prize2:hover h4 {
   color: #fff;
 }
-.single-ticket2:hover h2 {
+.single-prize2:hover h2 {
   color: #fff;
 }
-.single-ticket2:hover h2 span {
+.single-prize2:hover h2 span {
   color: #fff;
 }
-.single-ticket2:hover .sep hr {
+.single-prize2:hover .sep hr {
   border: 1px dashed #fff;
 }
-.single-ticket2:hover ul li {
+.single-prize2:hover ul li {
   color: #fff;
 }
 .brand-area2 {
