@@ -14,12 +14,9 @@
       onePage: false,
     });
     $(".counter").counterUp({ delay: 10, time: 1000 });
-    $(".countdown").downCount(
-      { date: "12/05/2021 12:00:00", offset: +6 },
-      function () {
-        alert("Countdown done!");
-      }
-    );
+    $(".countdown").downCount({ date: "12/15/2021 12:00:00", offset: +6 }, function () {
+      console.log("Countdown done!");
+    });
     $(".popup-link").magnificPopup({
       type: "iframe",
       iframe: {
@@ -108,9 +105,7 @@
       arrows: true,
       prevArrow: '<i class="fas fa-arrow-left slickArrow arrow-prev"></i>',
       nextArrow: '<i class="fas fa-arrow-right slickArrow  arrow-next"></i>',
-      responsive: [
-        { breakpoint: 576, settings: { slidesToShow: 1, slidesToScroll: 1 } },
-      ],
+      responsive: [{ breakpoint: 576, settings: { slidesToShow: 1, slidesToScroll: 1 } }],
     });
     $(".sc_nav_wrapper a.nav-link").on("click", function () {
       let dot = $(".line span");
